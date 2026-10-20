@@ -1,0 +1,18 @@
+Database Normalization - Quick Notes
+=====================================
+
+Normalization is the process of organizing data in a relational database to
+reduce redundancy and avoid insertion, update and deletion anomalies.
+
+At the same time, atomic values must be stored in each cell so that a table is
+in First Normal Form (1NF).
+
+Second Normal Form (2NF) removes partial dependencies on a composite primary
+key. Third Normal Form (3NF) removes transitive dependencies. Boyce-Codd
+Normal Form (BCNF) is a stronger version of 3NF.
+
+SQL is the standard language used to query and manage relational databases.
+A primary key uniquely identifies each row and cannot contain NULL values.
+A foreign key references the primary key of another table to enforce
+referential integrity. Transactions follow the ACID properties: Atomicity,
+Consistency, Isolation and Durability.
